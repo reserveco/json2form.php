@@ -1,3 +1,4 @@
+<?php
 function makeForm($json){
 	
 	$json = json_decode( $json, JSON_UNESCAPED_UNICODE );
@@ -128,3 +129,4 @@ function makeForm($json){
 	echo '</div>';
 
 }
+?>
